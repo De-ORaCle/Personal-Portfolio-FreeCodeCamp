@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #ad2e2e;
+    color: #FFFFFF;
+    margin: 0px;
+    width: 100vw;
+}
+
+.navs {
+    padding: 20px 30px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar a {
+    font-weight: 600;
+}
+
+#welcome-section {
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.ws-sect h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.ws-sect p {
+    margin-top: 5px;
+    color: #ad2e2e;
+    font-size: 25px;
+}
+
+#projects {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 0px 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#projects h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    width: fit-content;
+    color: #e7e7e7;
+    border-bottom: 4px solid#e7e7e7;
+}
+
+.my-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-tile {
+    width: 500px;
+    margin: 10px;
+}
+
+.others {
+    text-align: center;
+    font-weight: 600;
+}
+
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #575757;
+    border-bottom: 4px solid #ad2e2e;
+}
+
+.social a {
+    width: 60px;
+    margin: 10px;
+}
+
+.main-foot {
+    background: #575757;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+/* SMALLER SCREENS */
+
+@media (max-width: 650px) {
+    .main-foot {
+        text-align: center;
+        display: block;
+    }
+    .ws-sect h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .ws-sect p {
+        margin-top: 5px;
+        color: #ad2e2e;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    .navs {
+        width: 90%;
+    }
+}
